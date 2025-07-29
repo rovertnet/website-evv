@@ -9,6 +9,7 @@ import BookDetail from "./component/ebook/BookDetail";
 import AboutPage from "./pages/AboutPage";
 import ForumPage from "./pages/forum/ForumPge";
 import DiscussionChat from "./pages/forum/DiscussionChat";
+import EVVServices from "./pages/EVVServices";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/forum" element={<ForumPage />} />
         <Route path="/forum/creer" element={<DiscussionChat />} />
+        <Route path="/services" element={<EVVServices />} />
       </Routes>
       <Footer />
     </>

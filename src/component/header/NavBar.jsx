@@ -50,6 +50,9 @@ export default function NavBar() {
           <a href="/ebook" className="text-white hover:text-blue-300">
             Ebooks
           </a>
+          <a href="/services" className="text-white hover:text-blue-300">
+            Services
+          </a>
           <a href="/about" className="text-white hover:text-blue-300">
             A propos
           </a>
