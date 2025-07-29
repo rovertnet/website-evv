@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import HeroSlider from "../component/home/HeroSlider";
+import SectionBanner from "../component/SectionBanner";
 
 const pastors = [
   {
@@ -36,7 +37,12 @@ const pastors = [
 export default function AboutPage() {
   return (
     <>
-      <HeroSlider  />
+      <SectionBanner
+        title="📚 Bibliothèque en ligne"
+        subtitle="Explorez notre collection d’eBooks spirituels, disponibles en téléchargement."
+        image="https://cdn.pixabay.com/photo/2016/11/21/16/09/book-1845655_1280.jpg"
+      />
+
       <section className="bg-white py-20 px-6 lg:px-32">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
