@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const discussions = [
   {
@@ -41,9 +42,12 @@ export default function ForumPage() {
         <h2 className="text-3xl font-bold text-orange-600">
           Forum Communautaire
         </h2>
-        <button className="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-lg text-sm">
+        <Link
+          to="/forum/creer"
+          className="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-lg text-sm"
+        >
           + Créer une discussion
-        </button>
+        </Link>
       </div>
 
       <input
