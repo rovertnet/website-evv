@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  z-index: 50;
+}
+
+.ReactModal__Content {
+  inset: 10% !important;
+  padding: 0 !important;
+  border: none !important;
+  background: white !important;
+  border-radius: 1rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
