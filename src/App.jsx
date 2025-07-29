@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import EventsSection from "./pages/Evenement";
 import Contact from "./pages/Contact";
 import Ebook from "./pages/Ebook";
+import BookDetail from "./component/ebook/BookDetail";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Route path="/evenement" element={<EventsSection />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ebook" element={<Ebook />} />
+        <Route path="/livres/:id" element={<BookDetail />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
       <Footer />
     </>
