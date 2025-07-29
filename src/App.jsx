@@ -8,7 +8,7 @@ import Ebook from "./pages/Ebook";
 import BookDetail from "./component/ebook/BookDetail";
 import AboutPage from "./pages/AboutPage";
 import ForumPage from "./pages/forum/ForumPge";
-import CreateDiscussion from "./pages/forum/CreateDiscussion";
+import DiscussionChat from "./pages/forum/DiscussionChat";
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/livres/:id" element={<BookDetail />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/forum" element={<ForumPage />} />
-        <Route path="/forum/creer" element={<CreateDiscussion />} />
+        <Route path="/forum/creer" element={<DiscussionChat />} />
       </Routes>
       <Footer />
     </>
