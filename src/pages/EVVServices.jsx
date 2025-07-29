@@ -92,28 +92,11 @@ export default function EVVServices() {
 
   return (
     <>
-       <motion.div
-                initial={{ opacity: 0, y: -50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="relative bg-orange-700 text-white py-28 px-6  mb-6 overflow-hidden -mt-14"
-              >
-                <h1 className="text-3xl font-bold text-center">
-                  Nos Services
-                </h1>
-                <p className="text-center mt-2 text-sm">
-                  Partagez, posez vos questions, et échangez librement avec les
-                  membres de la communauté.
-                </p>
-      
-                <div
-                  className="absolute inset-0 opacity-10 bg-cover bg-center pointer-events-none"
-                  style={{
-                    backgroundImage:
-                      "url('https://cdn.pixabay.com/photo/2016/03/26/13/09/chat-1280x720.jpg')",
-                  }}
-                ></div>
-              </motion.div>
+      <SectionBanner
+        title="🛠️ Nos Services"
+        subtitle="Découvrez les différents services offerts par notre église pour vous accompagner spirituellement et socialement."
+        image="https://cdn.pixabay.com/photo/2016/11/29/06/17/architecture-1867187_1280.jpg"
+      />
 
       <div className="flex flex-col lg:flex-row items-start gap-10 p-6 lg:p-16 bg-white">
         {/* Image avec animation */}

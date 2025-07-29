@@ -3,6 +3,7 @@ import EventsSection from '../component/home/EventsSection'
 import HeroSlider from '../component/home/HeroSlider';
 import EventsSections from '../component/events/SectionEvents';
 import ReplaysSection from '../component/events/ReplaysSection';
+import SectionBanner from '../component/SectionBanner';
 
 export default function Evenement() {
   return (
