@@ -3,20 +3,16 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
   {
-    image:
-      "https://images.unsplash.com/photo-1523289333742-be1143f6b766?auto=format&fit=crop&w=1600&q=80",
+    image: "https://evv-rdc.com/assets/img/slides/camera/1442109526.jpg",
     title: "Bienvenue à l’Eglise EVV",
     description: "Une communauté de foi et d’amour à votre écoute.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1587316745621-3757c7076f7b?auto=format&fit=crop&w=1600&q=80",
-    title: "Culte chaque dimanche",
-    description: "Venez vivre une expérience spirituelle enrichissante.",
+    image: "https://evv-rdc.com/assets/img/slides/camera/1257498362.jpg",
+   
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=1600&q=80",
+    image: "https://evv-rdc.com/assets/img/slides/camera/399177409.jpg",
     title: "Dieu est au centre",
     description: "Rejoignez-nous pour partager l’espérance en Christ.",
   },
