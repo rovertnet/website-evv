@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 // Exemple de livres avec catégorie
 const books = [
@@ -48,7 +49,7 @@ const books = [
     author: "Bishop David L.",
     price: "13,50 €",
     image:
-      "https://images.unsplash.com/photo-1496317556649-f930d733eea2?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=400&q=80",
     category: "Leadership",
   },
 ];
@@ -145,9 +146,12 @@ export default function BooksForSaleSection() {
                 </p>
                 <p className="text-primary font-bold">{book.price}</p>
                 <div className="flex justify-between items-center mt-4 gap-2">
-                  <button className="flex-1 bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
-                    Acheter
-                  </button>
+                  <Link
+                    to={`/livres/${book.id}`}
+                    className=" inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition"
+                  >
+                    Voir détails
+                  </Link>
                   <button className="flex-1 bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400 transition">
                     Ajouter au panier
                   </button>
