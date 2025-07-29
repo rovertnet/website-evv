@@ -38,9 +38,9 @@ export default function AboutPage() {
   return (
     <>
       <SectionBanner
-        title="📚 Bibliothèque en ligne"
-        subtitle="Explorez notre collection d’eBooks spirituels, disponibles en téléchargement."
-        image="https://cdn.pixabay.com/photo/2016/11/21/16/09/book-1845655_1280.jpg"
+        title="🙌 À propos de l’Église"
+        subtitle="Découvrez notre mission, notre histoire et les serviteurs qui bâtissent cette œuvre."
+        image="https://cdn.pixabay.com/photo/2017/03/12/13/41/cross-2136745_1280.jpg"
       />
 
       <section className="bg-white py-20 px-6 lg:px-32">
